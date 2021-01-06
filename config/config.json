@@ -1,0 +1,28 @@
+{
+    "DEV" : {
+        "SERVER" : {
+            "Port" : 8080
+        },
+        "DB" : {
+            "User" : "DB_A389CB_DISHAAIRWAYSENT_admin",
+            "Password" : "obrigado0aB",
+            "Server" : "sql6009.site4now.net",
+            "Database" : "DB_A389CB_DISHAAIRWAYSENT"
+        },
+        "FS" : {
+            "InputTemplate" : "../resources/input.docx",
+            "OutputDocx" : "../generatedfiles/output.docx",
+            "OutputPdf" : "../generatedfiles/output.pdf",
+            "InputTemplate1" : "../resources/CourierStatement2.docx",
+            "OutputDocx1" : "../generatedfiles/CourierStatement2.docx",
+            "OutputPdf1" : "../generatedfiles/CourierStatement2.pdf"
+        },
+        "ROUTE" : {
+            "FetchData" : "/getsqldata",
+            "GetWordDoc" : "/getworddoc",
+            "GetPdfDoc" : "/getpdfdoc",
+            "TestWordDoc" : "/testworddoc",
+            "TestPdfDoc" : "/testpdfdoc"
+        }
+    }
+}
